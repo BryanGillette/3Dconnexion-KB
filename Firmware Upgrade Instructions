@@ -1,0 +1,45 @@
+Dear Mr. Lovett,
+
+We have identified an issue that can cause a delay in starting Windows with the 3Dconnexion device connected or cause the device to not be recognized at Windows startup because the order of the BIOS instructions on some of the newer Win7 PCs is different than what the firmware in our devices was designed for. 
+Our engineers have developed an update to correct this by rewriting the device firmware.
+
+In order to update the firmware, you will need a system that can recognize our device, so that you may perform the firmway update.
+
+You can run the firmware update on a different PC than on the one where you are seeing the problem . 
+It could be an older PC running Windows XP or one of the earlier Win 7 PCs. 
+You can install the 3DxSoftware on this PC and check that the PC is able to start without a delay
+ and can start the 3DxSoftware and recognize the device.
+Once you confirm that your device is recognized on that PC without a problem, you can download and install the firmware update utility.
+
+You will want to make sure that you can run the firmware upgrade without interruption as it is essential that the firmware upgrade complete in order for your device to remain operational.  Do on a fresh reboot, with all your applications closed.  Make sure you have secure power supply. etc.
+
+Please download the firmware update from this location:
+
+      ftp://ftp-de1.3Dconnexion.com
+      User:   external-3Dx
+      Passwd:  get.extra-sw
+
+Choose the 32 or 64 bit version to match the PC you are using to run the firmware update.
+
+A security warning is displayed during installation. 
+Please confirm that you want to install the device software.
+
+After installing the update utility, you will find an icon under 
+Start -> All Programs -> 3Dconnexion named “Launch 3DxFlash”. 
+
+Firmware update notes : 
+
+Start the update utility with “Launch 3DxFlash” . 
+When the device is recognized the 'Upgrade' button will be active. 
+Pressing the 'Upgrade' button will start the process and the Windows New Hardware' dialog may open. 
+The prompt asks if you want to search the web for a driver or install a driver from the manufacturer. 
+Choose the driver from manufacturer and OK the next prompt to allow the 3Dconnexion Device Firmware Upgrade (DFU) driver to be installed. 
+
+The flash tool erases the existing firmware and then programs the new firmware to the device - it should complete in 4 or 5 seconds. 
+Do NOT unplug the device while the firmware is being upgraded. 
+Once it completes, check the Jet Demo to verify your device is working correctly then you can move it back to the original PC.
+[Start, All Programs, 3Dconnexion, Demo- Jet Demo]
+
+Please let me know your results with the update and the new firmware version shown after it is completed. 
+You can find the firmware version number in the 3Dconnexion Properties window under Help|About.
+
