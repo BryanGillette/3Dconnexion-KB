@@ -1,0 +1,17 @@
+
+The latest releases of Google Earth have changed their default settings to have our 3dconnexion devices disabled.
+
+On Windows 7, enable non-mouse controller in 
+Tools | Options| Navigation | Non-mouse Controller 
+and restart Google Earth.
+
+On Google Earth Pro, enable non-mouse controller in
+Navigation | Non-Mouse Controller
+and restart Google Earth.
+
+on the MAC OS, enable non-mouse contoller in
+Preferences | Navigation | Non-Mouse Controller
+and restart Google Earth.
+
+Sincerely,
+Bryan Gillette
