@@ -1,0 +1,20 @@
+Re: Is SpaceNavigator Really a HID device on Mac OS ?
+by crobl » Fri Jul 27, 2012 9:27 am 
+
+Hi DC,
+
+what you request for our devices has nothing to do with the driver. Its the device.
+
+As already said, all of our devices are defined as USB HID Multi Axis Controller.
+You mention the G27 Racing Wheel (I'm not familiar with it). This device may be defined as HID Joystick Device or even a HID Automobile Simulation Device.
+
+Again, the easiest way to get a good support of our devices in Unity, also without the need of a plugin, will be to ask their developers to add support for HID Multi Axis Controller in Unity as well.
+
+We are very keen on getting our devices supported (actually we're already in contact with the Unity developer), but we've made the experience, that customers have a bit more impact on companies regarding these issues. So please keep asking the Unity-Team for support! 
+
+If you need assistance or have additional questions, please let us know - we're very happy to provide you with the needed information.
+
+
+Regards,
+
+Christian
