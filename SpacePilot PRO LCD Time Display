@@ -1,0 +1,181 @@
+SpacePilot Pro LCD Time Display
+Questions and answers about 3Dconnexion devices on Windows
+
+Moderator: Moderators 
+
+Post a reply     First unread post • 10 posts • Page 1 of 1 
+Edit postDelete postReport this postInformationReply with quote SpacePilot Pro LCD Time Display
+by smitty97 » Tue Mar 05, 2013 1:49 pm 
+
+Is there any way to adjust the way the LCD shows time on the SPP? 
+My Outlook calendar items show in 24-hour and 
+i'd like them to show in 12-hour AM/PM mode.smitty97 
+  
+Posts: 11
+Joined: Wed Jun 17, 2009 10:34 am 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by Barbara » Tue Mar 05, 2013 2:10 pm 
+
+Hello smitty97 -
+
+The SpacePilot PRO displays the format Outlook is sending and 
+Outlook gets its time format from the country/region settings on your PC. 
+
+Whether 12 or 24 hour format is the default depends on the country. 
+For the US, Outlook displays a 12-hour clock. 
+Other countries/regions use a 24-hour clock.
+
+You can change the default used by the 
+PC in Regional Options in the Windows Control Panel.
+----------------------------
+BarbaraBarbara 
+Moderator
+ 
+  
+Posts: 265
+Joined: Fri May 14, 2010 2:11 pm 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by smitty97 » Tue Mar 05, 2013 2:17 pm 
+
+All my Windows regional settings are correct for USA and 12 hour time.smitty97 
+  
+Posts: 11
+Joined: Wed Jun 17, 2009 10:34 am 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by Barbara » Tue Mar 05, 2013 2:45 pm 
+
+Hello smitty97 -
+
+Unfortunately there is not an option in the SpacePilot PRO applets to change the display on the LCD.
+---------------------
+BarbaraBarbara 
+Moderator
+ 
+  
+Posts: 265
+Joined: Fri May 14, 2010 2:11 pm 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by ben_r_ » Fri Mar 08, 2013 1:17 pm 
+
+I wonder if any of the hacks that have been done with the Logitech gaming keyboards with LCDs would work with the SpacePilot Pro. 
+I just bought mine and am awaiting delivery and since I dont use Outlook 
+Im hoping there is more that can be done. 
+Otherwise that screen will end up being a waste for me.ben_r_ 
+  
+Posts: 7
+Joined: Fri Mar 08, 2013 12:53 pm
+Location: Sacramento, CA 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by jwick » Mon Mar 11, 2013 10:37 am 
+
+ben_r_ wrote:
+I wonder if any of the hacks that have been done with the Logitech gaming keyboards with LCDs would work with the SpacePilot Pro. 
+I just bought mine and am awaiting delivery and since I dont use Outlook
+ Im hoping there is more that can be done. Otherwise that screen will end up being a waste for me.
+The SpacePilot Pro LCD is exactly the same LCD as used in the G19. 
+You can run any Logitech applet on it.jwick 
+Moderator
+ 
+  
+Posts: 1715
+Joined: Wed Dec 20, 2006 5:25 pm
+Location: USA 
+Private messageWebsite Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by ben_r_ » Sat Mar 16, 2013 8:44 pm 
+
+jwick wrote:
+ben_r_ wrote:
+I wonder if any of the hacks that have been done with the Logitech gaming keyboards with LCDs would work with the SpacePilot Pro. 
+I just bought mine and am awaiting delivery and since I dont use Outlook 
+Im hoping there is more that can be done. Otherwise that screen will end up being a waste for me.
+The SpacePilot Pro LCD is exactly the same LCD as used in the G19. 
+You can run any Logitech applet on it.
+I have never played with a G19, where does one get applets for it that will work with the SpacePilot Pro LCD?ben_r_ 
+  
+Posts: 7
+Joined: Fri Mar 08, 2013 12:53 pm
+Location: Sacramento, CA 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by jwick » Sun Mar 17, 2013 9:15 am 
+
+google is your friend: 
+
+"G19 applets"jwick 
+
+Moderator
+ 
+  
+Posts: 1715
+Joined: Wed Dec 20, 2006 5:25 pm
+Location: USA 
+Private messageWebsite Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by ben_r_ » Mon Mar 18, 2013 12:29 pm 
+
+jwick wrote:
+google is your friend: "G19 applets"
+LOL if youre gonna go that route, it's FAR more humorous when using this method: 
+
+http://lmgtfy.com/?q=g19+applets
+
+But seriously, I was kinda hoping someone around here had compiled a list of applets that are cool/helpful/common/popular. 
+With as much as we pay for this unit it ought to have COME with them all available to install via the installation software.ben_r_ 
+  
+Posts: 7
+Joined: Fri Mar 08, 2013 12:53 pm
+Location: Sacramento, CA 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by jwick » Mon Mar 18, 2013 12:47 pm 
+
+That is much cooler! I'm going to have to bookmark that tool.
+
+The LCD doesn't seem to get much attention. I had much bigger hopes for it--it can even do full motion video! 
+I expected an online Logitech community actively doing some inventive things. 
+It's an underutilized resource, IMO.
+
+I ported some of our demos to display on the LCD. 
+It was like a hand-held game system 
+---
+Re: SpacePilot Pro LCD Time Display
+by ben_r_ » Mon Mar 18, 2013 9:22 pm 
+
+Yea I mean its totally awesome and could be soo useful! I LOVE how it displays the function keys as I cant remember from one app to the next. Although at the moment I cant get it to even show the Function Keys in the menu list thought it will bring up the Solidworks screen when Im in Solidworks. Going to try and reinstall the drivers again and see whats up. But yea, the screen is def a plus and should be more utilized by all who own this bad boy.ben_r_ 
+  
+Posts: 10
+Joined: Fri Mar 08, 2013 12:53 pm
+Location: Sacramento, CA 
+Private message Top
+--------------------------------------------------------------------------------
+
+Edit postDelete postReport this postInformationReply with quote Re: SpacePilot Pro LCD Time Display
+by jwick » Tue Mar 19, 2013 9:42 am 
+
+You have to be careful with Solidworks. You have to make button assignments inside Solidworks so our plugin will save them. The plugin will take care of telling the driver what needs to be put on the LCD. Don't make changes in the 3DxWare GUI. 
+
+Also, make sure you have your Solidworks profile selected in 3DxWare, or the Solidworks plugin could be trying to send these strings to the wrong profile. Clearing out your saved profiles is a good reset to any foul mismatches that may have happened.
