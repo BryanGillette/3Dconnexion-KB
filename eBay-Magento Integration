@@ -1,0 +1,82 @@
+Add-on Menu
+Browse Magento Go Extensions
+M2E
+Get Now.
+Dialog Box indicating Store
+Place Order Button
+Your extension has been installed.
+View in My Account
+My Products and Services
+My Go Extensions
+
+---------------------
+Overview:
+-----
+eBay-Magento Integration - Order Import and Stock Level Synchronization. Also supports Amazon, Rakuten and Play.com
+
+NOTE:Amazon and Rakuten, PLAY.COM integration currently available for Community and Enterprise versions. 
+The Magento GO users will be able to have Amazon/Rakuten integration in the future. (once magento go team updates our extension on their platform)
+
+The M2E Pro extension fully integrates Magento into eBay, Amazon and Rakuten, PLAY.COM platform. 
+This allows quick and simple creation as well as management of product listings 
+(inc. automated synchronization of stock levels, pricing, and product details), 
+import of eBay/Amazon/Rakuten order, automated feedback posting for buyers and many other tasks which significantly reduce time required for listing maintenance.
+
+The extension interacts with all 23 major eBay, 7 Amazon and 2 Rakuten (USA and UK at the moment) marketplaces. 
+It supports multiple eBay/Amazon/Rakuten accounts and multiple Magento stores.
+
+The M2E Pro listings are based on 3 types of templates: Selling Format, Description and General which provides flexibility and minimizes efforts.
+
+Selling Format Template contains information about listing types, quantities, auction duration and specifies price-related data (including that of Best Offer).
+Description Template sets products “look and feel”.
+General Template contains basic settings which are required for successful eBay listing.
+The listing data synchronization between Magento and eBay is governed by Synchronization Template.
+
+The Activation / Deactivation Actions, Revise, Relist and Stop rules within templates support implementation of numerous synchronization strategies 
+that can be applied to relevant listings. (i.e. multiple updates: quantity, price, title, description for some items while only quantity for others.) 
+Furthermore it is possible to schedule product actions (list, relist) on eBay.
+
+User friendly interface delivers: simple overview, “one click” & “bulk” management (i.e. revise, relist, and stop) of listed eBay items, 
+quick navigation to those items placed on eBay and products association in Magento store.
+
+Besides managing items listed by M2E Pro, the extension fully supports (relist, stop) actions for products listed by any other tool 
+(eBay, ChannelAdvisor, Auctiva, TurboLister, etc).
+
+The most important feature of the extension is the ability to import eBay Transactions and to create Magento Orders. 
+As far as order management, the extension treats eBay originated orders as regular Magento orders.
+
+Order fulfillment process is reflected on eBay. (i.e. when shipment is created, an eBay order gets “Shipped” status. 
+If a shipment has a tracking number, it is also posted to eBay).
+
+There are flexible settings for eBay Transactions and Customer importing, which can be set for each eBay account individually.
+
+It is possible to maintain a mapping between eBay Order status and Magento Order statuses. 
+Another useful feature allows products that are sold only on eBay to be imported later into Magento catalog for order processing.
+
+Additionally plug in has the ability to enable auto- response for buyers’ feedbacks using the predefined response templates. 
+Those feedbacks settings and templates also can be set for each eBay account individually. 
+Depending on settings auto responses can be sent either for Positive feedbacks or for any other feedback type.
+
+There are various global configuration options. It is possible enable/disable certain synchronization globally - for all eBay accounts at one place. 
+Also there are options, which allow enable/disable useful notifications (i.e when cron job is not run for last 12 hours or new negative feedback was received from buyer). In the Marketplaces section, you can enable eBay Marketplaces you will work with.
+
+There are various global configuration options available: not limited to synchronization for multiple eBay accounts (i.e. one point of entry), notifications (enable/disable) management (i.e cron job delay or negative feedback alert).
+
+Marketplaces section allows activation of any of eBay Marketplaces.
+
+Finally the extension has excessive logging:
+
+Listings Log – provides full information about listings during their life cycle 
+(creation, addition to a catalog, listing on eBay, product related changes (price, quantity, etc), actions 
+(Revise, Stop, Relist, Delete Item(s), eBay notifications, Listing deletions, etc.).
+3rd Party Listings Log – contains full information on 3rd Party Listings during their life cycle. 
+(Import of 3rd Party Listings from eBay, 3rd Party Listings actions (Stop, Relist), eBay notifications, etc.).
+Synchronizations Log – contains Templates, Orders, Feedback and 3rd Party Listings Synchronization related errors.
+Users, if necessary, are able to automatically clean log files.
+-------------------------
+Questions and Answers:
+http://www.magentocommerce.com/magento-connect/ebay-magento-integration-order-import-and-stock-level-synchronization-also-supports-amazon-rakuten-and-play-com.html
+--------------------------
+Support:
+http://support.m2epro.com/
+contact the Magento Developer
