@@ -1,0 +1,431 @@
+
+---------------------------------
+
+http://docs.m2epro.com/
+
+---------------------------------
+
+Sell On eBayContact SupportDocumentation
+M2E Pro is a Magento extension that makes selling on eBay easy for Magento Go users.
+
+The M2E Pro extension links your Magento store with eBay, making it easy for you to sell on both channels from your Magento back office.
+
+Benefits:
+Quickly replicate your Magento stock on eBay.
+Manage the display of products simply between eBay and your Magento Go store (incl. automated synchronization of stock levels, pricing and product details).
+Manage all your eBay and Magento orders from one back office.
+Use M2E Pro with multiple eBay accounts and multiple Magento stores.
+
+You can find more information on M2E Pro and its functionality here: http://docs.m2epro.com/
+
+Set up your M2E extension so you can start selling on eBay
+Start Set-Up now
+
+
+------------------------------------
+
+eBay-Magento Integration - Order Import and Stock Level Synchronization. Also supports Amazon, Rakuten and Play.com
+
+4.6 / 5 4.6 / 5
+Open Ratings SnapshotRead all 172 reviews Write a review
+Follow this extension
+Popularity Score 47317 Popularity Score
+The M2E Pro integrates Magento into eBay and Amazon*, Rakuten* platforms. * EE & CE only at the moment(!)
+
+Platform: Magento Go
+Platform: Magento Go
+Platform: Community
+Platform: Enterprise
+ Get Now
+FREE
+Developer Info /ProfileEmail Support Extensions
+
+PreviousNext
+Watch video
+M2E Pro
+
+
+
+Overview
+eBay-Magento Integration - Order Import and Stock Level Synchronization. Also supports Amazon, Rakuten and Play.com
+
+NOTE:Amazon and Rakuten, PLAY.COM integration currently available for Community and Enterprise versions. The Magento GO users will be able to have Amazon/Rakuten integration in the future. (once magento go team updates our extension on their platform)
+
+The M2E Pro extension fully integrates Magento into eBay, Amazon and Rakuten, PLAY.COM platform. This allows quick and simple creation as well as management of product listings (inc. automated synchronization of stock levels, pricing, and product details), import of eBay/Amazon/Rakuten order, automated feedback posting for buyers and many other tasks which significantly reduce time required for listing maintenance.
+
+The extension interacts with all 23 major eBay, 7 Amazon and 2 Rakuten (USA and UK at the moment) marketplaces. It supports multiple eBay/Amazon/Rakuten accounts and multiple Magento stores.
+
+The M2E Pro listings are based on 3 types of templates: Selling Format, Description and General which provides flexibility and minimizes efforts.
+
+Selling Format Template contains information about listing types, quantities, auction duration and specifies price-related data (including that of Best Offer).
+Description Template sets products “look and feel”.
+General Template contains basic settings which are required for successful eBay listing.
+The listing data synchronization between Magento and eBay is governed by Synchronization Template.
+
+The Activation / Deactivation Actions, Revise, Relist and Stop rules within templates support implementation of numerous synchronization strategies that can be applied to relevant listings. (i.e. multiple updates: quantity, price, title, description for some items while only quantity for others.) Furthermore it is possible to schedule product actions (list, relist) on eBay.
+
+User friendly interface delivers: simple overview, “one click” & “bulk” management (i.e. revise, relist, and stop) of listed eBay items, quick navigation to those items placed on eBay and products association in Magento store.
+
+Besides managing items listed by M2E Pro, the extension fully supports (relist, stop) actions for products listed by any other tool (eBay, ChannelAdvisor, Auctiva, TurboLister, etc).
+
+The most important feature of the extension is the ability to import eBay Transactions and to create Magento Orders. As far as order management, the extension treats eBay originated orders as regular Magento orders.
+
+Order fulfillment process is reflected on eBay. (i.e. when shipment is created, an eBay order gets “Shipped” status. If a shipment has a tracking number, it is also posted to eBay).
+
+There are flexible settings for eBay Transactions and Customer importing, which can be set for each eBay account individually.
+
+It is possible to maintain a mapping between eBay Order status and Magento Order statuses. Another useful feature allows products that are sold only on eBay to be imported later into Magento catalog for order processing.
+
+Additionally plug in has the ability to enable auto- response for buyers’ feedbacks using the predefined response templates. Those feedbacks settings and templates also can be set for each eBay account individually. Depending on settings auto responses can be sent either for Positive feedbacks or for any other feedback type.
+
+There are various global configuration options. It is possible enable/disable certain synchronization globally - for all eBay accounts at one place. Also there are options, which allow enable/disable useful notifications (i.e when cron job is not run for last 12 hours or new negative feedback was received from buyer). In the Marketplaces section, you can enable eBay Marketplaces you will work with.
+
+There are various global configuration options available: not limited to synchronization for multiple eBay accounts (i.e. one point of entry), notifications (enable/disable) management (i.e cron job delay or negative feedback alert).
+
+Marketplaces section allows activation of any of eBay Marketplaces.
+
+Finally the extension has excessive logging:
+
+Listings Log – provides full information about listings during their life cycle (creation, addition to a catalog, listing on eBay, product related changes (price, quantity, etc), actions (Revise, Stop, Relist, Delete Item(s), eBay notifications, Listing deletions, etc.).
+3rd Party Listings Log – contains full information on 3rd Party Listings during their life cycle. (Import of 3rd Party Listings from eBay, 3rd Party Listings actions (Stop, Relist), eBay notifications, etc.).
+Synchronizations Log – contains Templates, Orders, Feedback and 3rd Party Listings Synchronization related errors.
+Users, if necessary, are able to automatically clean log files.
+
+=========================================
+
+Frequently Asked Questions
+ 	Search
+Magento Order Amount differs from Amazon/eBay Order Amount
+
+The situation when Magento Order Amount differs from Amazon/eBay Order Amount happens due to the next settings:
+
+1. In Account Settings -> Order Tax Settings -> Tax Source is set to:
+- "Amazon/eBay&Magento" - Magento Orders use tax settings from the Amazon/eBay Listing. If there are no tax settings set in Amazon/eBay, Magento tax settings are used.
+- "Magento" – Magento Order uses Magento tax settings.
+2. Magento Tax Rate (Sales->Tax->Manage Tax Rules) is specified according to Customer Tax Class and Product Tax Class.
+3. Tax Rate corresponds to the particular region (Sales->Tax->Manage Tax Zones and Rates).
+
+For example, If the buyer is from USA, CA and for CA is specified tax rate 10%, 10% will be added to the price in the magento order. So, the price of Magento Order will be more than price of Amazon/eBay Order.
+Magento Go: Amazon and Rakuten integrations
+
+The Amazon and Rakuten, PLAY.COM integrations are currently available for Community and Enterprise versions. The Magento GO users will be able to have Amazon/Rakuten integration in the future. (once magento go team updates our extension on their platform)
+Condition is required for this category
+
+
+Two reasons may cause this error:
+ 
+1.      eBay requirements.  
+
+Getting this error means that condition of the item was either not specified or not suitable for the category the item belongs to. Some conditions can not be applied for certain categories. So, it is possible that unappropriated condition for the particular category was chosen.
+For more information go to 
+
+?http://pages.ebay.com/help/sell/item-condition.html
+
+2.     Incorrect attribute value.
+
+It is possible to set Condition Value from Custom Attribute.   The attribute value must be provided numerically (not in characters) according to eBay Condition Definitions: 
+
+eBay US: http://pages.ebay.com/help/sell/item-condition.html 
+eBay UK: http://pages.ebay.co.uk/help/sell/item-condition.html 
+eBay Germany:http://pages.ebay.de/help/sell/item-condition.html 
+eBay Austria:http://pages.ebay.at/help/sell/item-condition.html 
+eBay Spain: http://pages.ebay.es/help/sell/item-condition.html 
+
+
+a.       If you choose Custom Attribute with Text Field Catalog Input Type, make sure numeric value is provided in the certain field when managing the product (in other words, if your item is new, you should enter 1000, but not NEW). 
+
+b.      If you choose Custom Attribute with Drop-Down Catalog Input Type, make sure that numeric value is provided for the Store View you use for your Listing.    
+Custom title for eBay item
+
+Please note, in the Simple Mode of M2E Pro, the magento product name is always sent as eBay item title.
+
+However, in Advanced mode, there are two ways to specify the title in the Selling settings (Description Policy) :
+
+Product Name – item's title on eBay will be the same as product's name in Magento;
+ 
+Custom Title – allows entering custom text or / and using an appropriate attribute from appeared drop-down;
+ 
+
+To add an attribute in Custom Title field, choose it from the drop-down and click the Insert button.
+
+For more information go to: http://docs.m2epro.com/display/eBayMagentoV6/Description+Policy+Settings#DescriptionPolicySettings-Details
+Unable to select certain products for adding to Listing
+
+This problem may have two reasons:
+1. Your product is already in the other listing.
+There's a “Products Presented In Other Listings” functionality available in the Advanced Filter that allows you to show, or hide products presented in other M2E Listings. 
+Most probably it is set to "Not Show", so products which are added to other listings are not shown in the search result.
+To figure it out click on the “Show Advanced Filter” button. On the right a drop-down list will appear, select “Show” and press "Search" button. Thus, the needed product will be displayed in the product list.
+
+For more information go to http://docs.m2epro.com/display/eBayMagentoV6/Advanced+Filter
+
+2.The product is not added to the Website which is associated with Listing Store View.
+
+Website contains one or several Store Views. You choose the appropriate Website when adding New Product. You have to select And the Store View creating New Listing. If the Store View is not associated with the particular Website, the product will not be displayed in the number of products available to add to the Listing. Thus, you have two ways of solution:
+Select your Product and using Product Information choose the appropriate Website (Catalog-> Manage Products-> select product ? Product Information ? Website).
+Create New Listing and in the General Settings specify needed Magento Store View (Sell on eBay-> Listings ? Add Listing ? Step 1: General Settings ? Magento Settings ? Magento Store View). For more information go to http://docs.m2epro.com/display/eBayMagentoV6/General+Settings.
+
+
+
+
+Option value "{some text}" is too long. Maximum length is "50".
+
+This error occurs due to eBay restrictions concerning multinational options. The length of associated option title must be less than 50 characters. This is true for  Configurable, Grouped, Bundle, and Simple product  with Custom options. 
+
+Please note that only first 30 characters will be seen to the buyers looking for your items. Thus, if you need your customers see the entire title, the length of 30 characters or less is required. Anyhow, if the title of 50 characters or less is provided, the product with variations will be listed on eBay successfully.
+Cron job doesn't work since update to magento 1.8
+
+The cron problem is not related to m2e pro, but to the changes in cron.php file in the latest magento version 1.8.
+
+There are 2 ways how to fix the problem:
+Use the cron.php file from the previous versions. You can download it here and copy into your magento installation folder.
+Another way is to change  command for cron job and add flag -mdefault 1. ( i.e. php -q /path_to_magento/cron.php  -mdefault 1 )
+eBay returns warning for ShippingCostPaidByOption and ReturnsWithinOption
+
+The eBay has changed return policy fields for  some eBay sites. 
+To have these fields appeared, you need to execute eBay sites synchronization (Sell On eBay->Configuration->eBay Sites).
+
+After that, you need to edit your "Return Policy" and  re-save them with new fields for return policy.
+eBay store categories from custom attribute
+
+If you want to set eBay store category from custom attribute, you should perform next actions:
+Create product attribute in magento and add this attribute to each attribute sets in magento.
+Fill in product attribute value with numeric ID of eBay store category. (It should be ID, not the Name)
+Select the attribute as the source for eBay store category. (Note, only attributes presented in all attribute sets of magento are available for selection.)
+
+You can see ID of the particular eBay store category  in Sell On eBay->Configuration->Account Settings ->[eBay Store tab] by clicking on "category". Also you can use "Refresh" button on that page to re-synchronize eBay store categories if they were changed on eBay.
+Product title is not updated when auto sync of revise listing
+
+The eBay does not allow to change eBay item title/subtitle/duration/private listing flag if the item had at least one sale or bids for auction.
+
+So these fields are just ignored by m2e pro and not sent to eBay. This allows revising other fields. If m2e pro sent the mentioned fields, eBay would have returned error and an item would not have been revised at all.
+
+=====================================
+****************************************
+About
+****************************************
+
+AboutSupportVideo TutorialsDocumentationRefresh
+Module Info
+ 
+Name:	 m2epro
+Version (revision):	 4.1.0.r2189
+Application Key:	 b79a495170da3b081c9ebae6c255c7fbe1b139b5
+License Info
+ 
+License Key:	
+Location Info
+ 
+Host:	 hatbagel.gostorego.com
+Domain:	 hatbagel.gostorego.com
+IP:	 172.17.0.141
+Database Summary
+ 
+Total Tables:	 450
+Total Module Tables:	 72
+Total Module Records:	 228
+Database Tables
+ 
+Table	Status	Records
+ess_config	 Yes 	19
+m2epro_config	 Yes 	145
+m2epro_lock_item	 Yes 	0
+m2epro_locked_object	 Yes 	0
+m2epro_product_change	 Yes 	0
+m2epro_processing_request	 Yes 	0
+m2epro_account	 Yes 	0
+m2epro_marketplace	 Yes 	32
+m2epro_attribute_set	 Yes 	0
+m2epro_order	 Yes 	0
+m2epro_order_item	 Yes 	0
+m2epro_order_log	 Yes 	0
+m2epro_synchronization_log	 Yes 	0
+m2epro_synchronization_run	 Yes 	0
+m2epro_listing	 Yes 	0
+m2epro_listing_category	 Yes 	0
+m2epro_listing_log	 Yes 	0
+m2epro_listing_other	 Yes 	0
+m2epro_listing_other_log	 Yes 	0
+m2epro_listing_product	 Yes 	0
+m2epro_listing_product_variation	 Yes 	0
+m2epro_listing_product_variation_option	 Yes 	0
+m2epro_template_description	 Yes 	0
+m2epro_template_general	 Yes 	0
+m2epro_template_selling_format	 Yes 	0
+m2epro_template_synchronization	 Yes 	0
+m2epro_ebay_account	 Yes 	0
+m2epro_ebay_account_store_category	 Yes 	0
+m2epro_ebay_dictionary_category	 Yes 	0
+m2epro_ebay_dictionary_marketplace	 Yes 	0
+m2epro_ebay_dictionary_shipping	 Yes 	0
+m2epro_ebay_dictionary_shipping_category	 Yes 	0
+m2epro_ebay_feedback	 Yes 	0
+m2epro_ebay_feedback_template	 Yes 	0
+m2epro_ebay_item	 Yes 	0
+m2epro_ebay_listing	 Yes 	0
+m2epro_ebay_listing_other	 Yes 	0
+m2epro_ebay_listing_product	 Yes 	0
+m2epro_ebay_listing_product_variation	 Yes 	0
+m2epro_ebay_listing_product_variation_option	 Yes 	0
+m2epro_ebay_marketplace	 Yes 	23
+m2epro_ebay_message	 Yes 	0
+m2epro_ebay_order	 Yes 	0
+m2epro_ebay_order_item	 Yes 	0
+m2epro_ebay_order_external_transaction	 Yes 	0
+m2epro_ebay_template_description	 Yes 	0
+m2epro_ebay_template_general	 Yes 	0
+m2epro_ebay_template_general_calculated_shipping	 Yes 	0
+m2epro_ebay_template_general_payment	 Yes 	0
+m2epro_ebay_template_general_shipping	 Yes 	0
+m2epro_ebay_template_general_specific	 Yes 	0
+m2epro_ebay_template_selling_format	 Yes 	0
+m2epro_ebay_template_synchronization	 Yes 	0
+
+*************************************
+########################################
+Activation
+#################################
+M2E Extension Activation    
+Please fill in and submit form below
+
+E-Mail: *	
+First Name: *	
+Last Name: *	
+Country: *	
+City: *	
+Zip/Postal Code: *	
+ Activate
+#####################################
+Your M2E extension is activated. Hit Continue to link your eBay Account with Magento.
+ Continue
+#####################################
+M2E Extension Activation    Completed
+Link your eBay Account with Magento    
+I don't have and eBay account: Click to Register
+Once you have registered account, sign in with your eBay account: Sign in
+###################################
+eBayeBay
+Hi! Ready to register with eBay?
+Live help
+It's your typical registration - it's free and fairly simple to complete.
+Already registered or want to make changes to your account? Sign in. 
+Want to open an account for yourself?
+ 
+Tell us about your business - All fields are required
+Business name 
+
+
+Street address 1
+
+
+Street address 2
+
+
+City
+
+
+State / Province
+
+	ZIP / Postal code
+
+	Country
+	
+Your business contact information - All fields are required
+
+First name
+
+	Last name
+
+
+Email address
+
+
+Re-enter email address
+
+We're not big on spam. You can always change your email preferences after registration.
+
+Primary telephone number
+ -  - 	  ext.:   
+	
+Secondary telephone (optional)
+ -  - 	  ext.:   
+Example: 123-456-7890.  Needed if there are questions about your account
+The not-so-fine print
+  I agree to the following:
+I accept the User Agreement and have read the Privacy Policy.
+I am at least 18 years old.
+I may receive communications from eBay and can change my notification preferences in My eBay.
+
+Continue
+########################################
+eBay Buyer Protection	
+We will cover your purchase price plus original shipping
+Learn more
+
+Your privacy is important to us
+eBay does not rent or sell your personal information to third parties without your consent.
+
+To learn more, read our privacy policy.
+
+Your address will be used for shipping your purchase or receiving payment from buyers.
+TRUSTe Privacy Seal
+###################################
+Live Help
+###################################
+
+Register with eBay
+Live help
+Choose your user ID and password - All fields are required
+	 
+
+
+	Choose your company's eBay user ID
+	
+Success
+
+Good news! This user ID is available for you to use.
+	
+	Choose your password
+
+hB1!
+
+caSe sensiTive. Learn about secure passwords.	
+
+	Re-enter your password
+
+
+Pick a secret question	
+
+
+
+Your secret answer
+######################################
+eBay sent this message to Bryan Gillette <hatbagel> 
+    
+       
+ 
+Confirm your eBay Registration
+ 
+Hi Bryan,
+
+You're almost done! Now that we know that your email address is correct, you'll just need to click Confirm to complete your registration. After that, you'll be ready to shop, bid and buy on eBay.
+ 
+Confirm 
+ 
+Need help with completing your registration?
+ 
+If the button doesn't work, follow these steps to complete your registration.
+
+Write or copy this confirmation code: vsSUt 
+Go to this web address, or copy this address into your web browser: https://scgi.ebay.com/ws/eBayISAPI.dll?VAppEma&action=confirmcode 
+Enter your confirmation code. 
+If you need additional assistance, eBay Customer Support can help.
+ 
+Email reference id: [#429cd93221fa481abda787723bfafde0#]  
+ 
+eBay sent this message to Bryan Gillette (hatbagel). Learn more 
+eBay is committed to your privacy. Learn more about our privacy policy and user agreement.  
+ 
+© 2013 eBay Inc., 2145 Hamilton Avenue, San Jose, CA 95125   
+ 
+#####################################
