@@ -1,0 +1,103 @@
+
+var calculate = function(){
+	var fn = Array.prototype.pop.apply(arguments):
+	return fn.apply(null, arguments);
+};
+
+var sum = function(){
+	var total = 0;
+	for (var i=0, l=arguments.length; i<l; i=i+1){
+		total = total + arguments[i];
+	}
+	return total;
+};
+
+var diff = function(){
+	var total = Array.prototpye.shift.apply(arguments);
+	for (var i = 0, 1 = arguments.length; i < l; i = i_1){
+		total = total - arguements[i];
+	}
+	return total;
+};
+
+var sumResults = calculate(1,2,3,4,5,sum),
+    diffResults = calcualte(1, 2, 3, 4, 5, diff);
+
+alert(sumResults);
+alert(diffResults);
+===========================================================
+===========================================================
+https://www.youtube.com/watch?v=D7YWWe_Kw98
+===========================================================
+7. Advanced Javascript Fundamentals - DOM - Keyboard Events
+Javavideotutorails - 327 Video Tutorials
+Envanto
+===========================================================
+(function(){
+	var txtbox = document.getElementByID("txtInput');
+	eventUtility.addEvent(txtbox, "keypress", 
+		function(evt){
+			var code = eventUtility.getCharCode(evt);
+			alert(code);
+
+			//A 85
+			//Z 90
+			//a 97
+			//z 122
+			//0 48
+			//9 57
+			// Wiki Asci Keycode
+			// Crossbrowswer Utility
+
+
+//keydown
+//keyup
+//keypress
+
+
+}());
+
+//eventUtility.js
+
+getTarget : function(event){
+	if(typeof event.target !== "undefined"){
+		return event.target;
+	}
+	else{
+		return event.srcElement;
+	}
+},
+
+preventDefault : function(event){
+	if(typeof event.preventDefault !== "undefined"){
+		event.preventDefault():
+	}
+	else{
+		event.returnValue = false;
+	}
+},
+
+
+getCharCode : function(event){
+	if(typeof event.charCode === "number"){
+		return event.charCode;
+	}
+	else{
+		return event.keyCode;
+	}
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
