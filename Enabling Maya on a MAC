@@ -1,0 +1,50 @@
+
+The 3Dconnexion plug-in in Maya depends on the command 'MagellanStartup' being executed by the 'usersetup.mel' file.
+
+If the 3DxMaya plug-in is installed, but you are not seeing navigation in Maya, type "MagellanStartup" (without the quotes) at the Maya command line.
+This will either enable navigation or generate an error that will let us know what the problem is.
+("MagellanStartup" is case-sensitive.)
+
+If navigation starts when you type "MagellanStartup" at the command prompt, but is not auto-starting, 
+that would indicate that another instance of usersetup.mel is being used. 
+When another script is installed it can overwrite the 3Dconnexion usersetup.mel.
+To have the 3DxMaya plug-in auto-start you will need to add the MagellanStartup; line to the end of the active 'usersetup.mel' 
+
+You can locate any other copies of 'usersetup.mel' by using Finder. 
+If you have other scripts or add-ins such as Maya's Bonus Tools or GoZ, they add their own 'usersetup.mel' files. 
+Open the 'usersetup.mel' file  in maya|scripts|startup and add the line 
+ MagellanStartup;
+at the end.
+
+Maya only checks for the scripts on startup, so you can restart Maya or type "rehash;" 
+
+If typing “MagellanStartup” (without quotes) at the Maya command line returns an error, 
+check that you are using the current 3DxMacware software and if not , download it from from our web site under 
+Service Menu, Download Driver Page. 
+[http://www.3dconnexion.com/support/downloads.php].
+
+If you are already using the current version, close Maya and run the 3Dconnexion .dmg again to install the plugin. 
+Open Maya and go to Window->Settings|Preferences->Plug-In Manager to check that 3DxMaya.bundle is loaded 
+
+If you are still seeing a problem please let us know whether MagellanStartup enables navigation and which other scripts or add-ins are in use.
+
+--------------------------------
+
+ALSO
+
+Open Maya and go to Window->Settings|Preferences->Plug-In Manager to check that 3DxMaya.bundle is loaded 
+If you are still not able to load the plugin , in Maya go to Window->Settings/Preferences->Plug-In Manager 
+and check that 3DxMaya.bundle is loaded.
+If it is not, check that the files are in the correct folders: 
+
+Confirm the plug-in 3DxMaya.bundle is in 
+Users-->Shared-->Autodesk-->maya-->2011-->plug-ins 
+
+Confirm these files are in 
+Users-->Shared-->Autodesk-->maya-->scripts C3DxButtonEditor.mel 
+
+--
+
+If typing “MagellanStartup” [without quotes] at the Maya command line returns an error: "3DxMaya.bundle" was not found on MAYA_PLUG_IN_PATH , 
+it indicates the plug-in is either not installed or not installed in the correct folders.
+
