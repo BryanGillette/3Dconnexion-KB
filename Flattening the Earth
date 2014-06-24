@@ -1,0 +1,141 @@
+Map Lab
+Get to Know a Projection: The Space-Oblique Mercator
+BY NICK STOCKTON   06.20.14  |   12:51 PM  |   PERMALINK
+
+Without 
+John Snyder, LandSat would just make pretty pictures instead of beautiful maps.  NASA
+
+For his 50th birthday, 
+John Parr Snyder’s wife bought him a special gift: a ticket to “The Changing World of Geodetic Science,” a 
+cartography convention in Columbus, Ohio. 
+Geodesy, an esoteric branch of geography studying the shape of the earth, had been one of Snyder’s lifelong hobbies. 
+As a keynote, the 1976 conference featured a speech from 
+Alden Partridge Colvocoresses, decorated 
+World War II hero and 
+head of the USGS’s national mapping program.
+
+More Projections:
+
+Dymaxion vs. Cahill
+Raisz's Armadillo
+Lambert Conformal Conic
+Colvocoresses was responsible for turning imagery from LandSat-1, launched in 1972, into high resolution maps. 
+However, he had a problem: LandSat was taking amazing photographs, but nobody could figure out how to turn those photographs into maps. 
+The math behind a projection that accounted for both the 
+satellite’s and 
+Earth’s respective movements was too complicated, so he was turning to the civilian audience of professional and amateur cartographers for help.
+Snyder went home inspired. 
+He had a day job, but in less than 
+four months, working alone, at night, without pay, and using a calculator that stored his work on magnetic tapes, he solved the problem of making maps from space.
+
+When NASA launched the 
+LandSat program (originally called the 
+Earth Resources Technology Satellite), making maps wasn’t a priority. 
+But many engineers soon saw how valuable it would be to assign geographic coordinates to high-resolution images. 
+Colvocoresses, no mapping slouch, came up with a 
+theoretical solution in 1973, which he called the 
+Space-Oblique Mercator projection.
+
+The original LandSat-1
+The original LandSat-1  NASA
+It was based on 
+Geraldus Mercator’s 1569 projection, because 
+it preserved the angles of Earth’s surface features in relation to one another (a property called 
+conformality). 
+Unlike the original Mercator, which used the equator as a line of zero distortion, 
+Colvocoresses decided that 
+the line of zero distortion would be the path along the earth’s surface directly below LandSat’s camera. 
+Because LandSat’s camera only captured a 
+100-nautical-mile-wide swath, distortion would be minimal.
+Mapping from space isn’t as easy as matching up photo features to the 
+cartesian graticule. 
+Even though the images were two-dimensional, 
+they were of a curved surface, which means they needed to be 
+geometrically adjusted—projected—as flat areas.
+
+Colvocoresses turned the 
+Space-Oblique Marcator’s basic structure over to his team of geographers. 
+”They didn’t think it would be a big problem to project the photos and make them into maps,” said 
+John Hessler, a geographer at the Library of Congress.
+
+
+Snyder’s Space-Oblique Projection. 
+Notice the sinewave-like path of tangency. 
+Distortion within 100 nautical miles of this line is less than 
+.01 percent. USGS
+
+Thing is, there are no small problems in space, and LandSat’s mappers had four. 
+
+Projections are essentially views of the Earth from imaginary, elevated viewpoints, and people have been making them for 2,000 years.
+ However, nobody had ever considered that if they were going to actually make a map from an 
+actual elevated viewpoint, they’d have to account not only for the 
+platform moving (in orbit),
+ but also the earth rotating below. 
+
+But the Earth doesn’t just spin, 
+it has a little bit of a wobble, too. 
+
+And then there’s gravity, which doesn’t pull uniformly across the earth’s surface, but is stronger is some places, weaker in others 
+(because the Earth is denser in some areas and less dense in others).
+ 
+All these things affect the 
+satellite’s position and 
+altitude relative to the Earth, and all of them need to be considered before you make a map from a satellite.
+
+When years went by without a solution to these problems, 
+
+
+Colvocoresses turned to outside help, including 
+John L. Junkins, an engineer at Texas A&M. 
+Junkins specialized in 
+telemetry—tracking moving objects—and was a good bet for figuring out how all those motions could fit into a mappable geometric equation.
+
+But Colvocoresses was a former Army strategist (who helped prep for D-Day), and he knew that a battle this tough should be fought on multiple fronts. 
+He put his plea to the masses, and in 
+1976, at Ohio State University, at the Fawcett Center for Tomorrow, at the geodetic conference, that plea reached the ears of lifelong map addict 
+John Snyder.
+
+Snyder took a different tack than Junkins and the USGS scientists. 
+They were trying to create a comprehensive framework using Newtonian physics that could be used to 
+predict the ground track of any orbiting body onto Earth. 
+Snyder didn’t care about trying to predict all the motions, he was only concerned with the ones that mattered. 
+“His equations didn’t tell you anything about how the satellite was moving,” said Hessler. 
+“He just looked at the 
+central path of the satellite and calculated how it would 
+relate to lines of latitude and longitude.”
+
+Sketches and notes on various projection techniques, from 
+Snyder's notebook when he was 16 years old.
+Sketches and notes on various projection techniques, from 
+Snyder’s notebook when he was 16 years old.  John Hessler/Library of Congress
+Hessler, the Library of Congress geographer, calls
+ Snyder a cartographic prodigy. 
+His high school notebooks are full of drawings, notes, and equations all about map projections. 
+Though he went to school for, and worked most of his adult life as, a chemical engineer, he wrote several books about mapping. 
+Shortly before the Ohio convention, he had bought himself a 
+TI-59 programmable calculator. 
+(Snyder had quit trying to create map equations years before, because the equations got too difficult for him to do on paper.)
+
+In his later years, he became a master of 
+herding geographic distortion, so he could 
+preserve the shapes and sizes of the features that he was wanted in focus.
+ One example of this is the 
+GS50, the only projection where you can see all 50 states—including Alaska and Hawai’i—on a single, seamless map with minimal distortion. 
+A few years before he died in 1997, 
+he published what many consider to be the bible of map projections: 
+a surprisingly readable volume called 
+Flattening the Earth.
+
+Snyder was too anxious to send his calculations directly to the USGS, so he asked 
+Waldo Tobler, a geographer at the University of California in Santa Barbara, to review them first. 
+Tobler saw that they would work, and forwarded them along to the 
+Colvocoresses. 
+The moment he saw it, the USGS mapper knew that Snyder’s work was the key to making 
+Space-Oblique Mercator work. 
+He asked if he wanted to move from New Jersey to Virginia, and become a professional cartographer with the USGS. 
+And John Parr Snyder, who had been obsessed with maps since he was a boy, accepted without hesitation.
+
+
+
+
+
