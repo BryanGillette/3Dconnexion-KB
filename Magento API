@@ -1,0 +1,68 @@
+
+
+
+			Magento API
+
+Available API Types
+API Features
+Testing Tools
+
+Underlying Aspect of Web 2.0
+
+The API, the Applicatin Programming Interface is the interface implemented by an application from a service provider that allows other applications from service consumers to communite with it.
+
+An API is a software to software interface, not an user interface.
+
+The Magento API allows third-party applications to interact with a Magento Instance programmatically.
+
+
+The data of a magento store to 
+ERP
+CRM
+CMS
+Mobile Apps
+
+In SOAP and XML-RPC
+Our api for go, ce, ee supports
+SOAP 1.1
+SOAP 1.2
+SOAP WS-I
+to easly auto generate client classes in JAVA or .NET
+
+Featured Calls
+Product
+Category
+Customer
+Checkout
+Sales
+Inventory
+Enterprise Customer Balance
+Enterprise Gift Card
+Enterprise Gift Message
+
+Three Steps to configure functionality and resources:
+create User
+assigna role
+make an api call
+ load WSDL via soapUI tool
+ retrieve product list via soapUI tool
+
+calls:
+http://go.magento.com/api-doc/
+escalations:
+https://wiki.corp.x.com/display/SUPPORTGO/TOPIC+-+API+-+Magento+Go
+
+
+In REST
+Our api for CE and EE support
+Authenticaion, 3 legged OAuth 1.0a protocol
+HTTP methods: GET, PUT, POST, DELETE
+
+-------------------------------------------------------
+
+Magento API, http://www.magentocommerce.com/api/soap/introduction.html#Introduction-XMLRPC
+
+Should a merchant contact us about implementation it is out of scope, should a merchant contact us about an issue with a call please use "https://wiki.corp.x.com/display/SUPPORTGO/PROCESS+-+API-related+Inquiries+or+Issues"
+
+Demo:
+http://myroom-na.adobeconnect.com/p2ts3wd0539
