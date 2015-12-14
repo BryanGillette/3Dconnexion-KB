@@ -1,0 +1,94 @@
+Just a test file to test adding a file the the Master Branch.
+=========================================
+C:\Users\Bruce\AppData\Local\Android\sdk
+C:\Program Files\Android\Android Studio
+=========================================
+Android SDK was installed to C:\Users\Bruce\AppData\Local\Android\sdk
+
+Installing Archives:
+  Preparing to install archives
+=========================================
+Android SDK was installed to C:\Users\Bruce\AppData\Local\Android\sdk
+
+Installing Archives:
+  Preparing to install archives
+  Installing SDK Platform Android 6.0, API 23, revision 2
+  Failed to rename directory C:\Users\Bruce\AppData\Local\Android\sdk\platforms\android-23 to C:\Users\Bruce\AppData\Local\Android\sdk\temp\RemotePlatformPkgInfo.old01.
+
+SDK Manager: failed to install
+-= Warning ! =-
+A folder failed to be moved. On Windows this typically means that a program is using that folder (for example Windows Explorer or your anti-virus software.)
+Please momentarily deactivate your anti-virus software or close any running programs that may be accessing the directory 'C:\Users\Bruce\AppData\Local\Android\sdk\platforms\android-23'.
+When ready, press YES to try again.
+Note: you  can use --force to override to yes.
+[y/n] =>
+  Installing Android SDK Build-tools, revision 23.0.2
+    Installed Android SDK Build-tools, revision 23.0.2
+  Installing Android SDK Platform-tools, revision 23.1.0
+    Stopping ADB server succeeded.
+    Installed Android SDK Platform-tools, revision 23.1.0
+=========================================================
+Downloading Components
+Download Google APIs Intel x86 Atom System Image, Google Inc. API 23, revision  10
+==================================================================================
+Installing Google APIs Intel x86 Atom System Image, Google Inc. API 23, revision 10
+    Installed Google APIs Intel x86 Atom System Image, Google Inc. API 23, revision 10
+    Stopping ADB server succeeded.
+    Starting ADB server succeeded.
+  Done. 3 packages installed.
+
+
+Installing Archives:
+  Preparing to install archives
+  Installing SDK Platform Android 6.0, API 23, revision 2
+    Installed SDK Platform Android 6.0, API 23, revision 2
+  Done. 1 package installed.
+Android SDK is up to date.
+Creating Android virtual device
+Android virtual device Nexus_5_API_23_x86 was successfully created
+==================================================================
+start a new Android Studio Project
+Open an existing Android Studio Projgect
+Check out project from Version Control
+Import project(Eclipase ADT, Gradle, etc.)
+Import an Android code sample.
+Configure
+Docs and How-Tos
+=================
+Welcome to Android Studio 1.5
+You can quickly get familiar with the main features of the IDE by reading these tips. You may try out the features described in the tips while this dialog stays open on the screen. If you close the dialog, you can always get back to it from the Help | Tip of the Day main menu item.
+
+=================
+ 
+To open any class in the editor quickly, press Ctrl+N (Navigate | Class) and start typing the name of the class. Choose the class from a drop-down list that appears.
+ 
+You can open any file in your project in a similar way by using Ctrl+Shift+N (Navigate | File)
+=================
+ 
+The Code Completion feature lets you quickly complete different kinds of statements in the code. For example, start typing a class name and press Ctrl+Space to complete it. When multiple choices are available, they are shown in the lookup list.
+ 
+=================
+ 
+You can quickly find all places where a particular class, method or variable is used in the whole project by positioning the caret at the symbol's name or at its usage in code and pressing Alt+F7 (Edit | Find | Find Usages in the popup menu).
+=================
+ 
+To quickly see the documentation for a class or method at caret, press Ctrl+Q (View | Quick Documentation).
+ 
+=================
+ 
+To navigate to the declaration of a class, method or variable used somewhere in the code, position the caret at the usage and press Ctrl+B (Navigate | Declaration). You can also click the mouse on usages with the Ctrl key pressed to jump to declarations.
+ 
+=================
+C:\Users\Bruce\AndroidStudioProjects\MyFirstAndroidSTudioProject
+=================
+bruce.example.com
+=================
+
+=My First Android STudio Project================
+
+=================
+
+=================
+
+
+
